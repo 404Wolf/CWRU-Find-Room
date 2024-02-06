@@ -23,7 +23,7 @@ with open("filters.json", "r") as f:
 async def main():
     async with AuthedClientSession(getenv("CASEID"), getenv("PASSWORD")) as session:
         rooms = Rooms(session)
-        schedule = await rooms.list_rooms(2, 2)
+        schedule = await rooms.list_rooms(int(getenv("HOURS_FROM_NOW")), int(getenv("DURATION_HOURS")))
 
         for room in tuple(schedule):
             for term in filters["blacklist"]:
