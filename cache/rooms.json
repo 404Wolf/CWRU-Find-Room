@@ -1,0 +1,1927 @@
+{
+  "327": {
+    "room_id": 327,
+    "room_code": "ROCK 303",
+    "building_id": 80,
+    "building_code": "Rockefeller",
+    "name": "303"
+  },
+  "270": {
+    "room_id": 270,
+    "room_code": "BING 304",
+    "building_id": 61,
+    "building_code": "Bingham",
+    "name": "304"
+  },
+  "347": {
+    "room_id": 347,
+    "room_code": "WHTE 411",
+    "building_id": 83,
+    "building_code": "White",
+    "name": "411"
+  },
+  "1077": {
+    "room_id": 1077,
+    "room_code": "CRAW 13A",
+    "building_id": 15,
+    "building_code": "Crawford",
+    "name": "13A"
+  },
+  "774": {
+    "room_id": 774,
+    "room_code": "SEAR 323",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "323"
+  },
+  "271": {
+    "room_id": 271,
+    "room_code": "BING 305",
+    "building_id": 61,
+    "building_code": "Bingham",
+    "name": "305"
+  },
+  "275": {
+    "room_id": 275,
+    "room_code": "CLRK 103",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "103"
+  },
+  "348": {
+    "room_id": 348,
+    "room_code": "WICK 321",
+    "building_id": 84,
+    "building_code": "Wickenden",
+    "name": "321"
+  },
+  "985": {
+    "room_id": 985,
+    "room_code": "WHTE 326",
+    "building_id": 83,
+    "building_code": "White",
+    "name": "326"
+  },
+  "778": {
+    "room_id": 778,
+    "room_code": "SEAR 326",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "326"
+  },
+  "880": {
+    "room_id": 880,
+    "room_code": "BING 140",
+    "building_id": 61,
+    "building_code": "Bingham",
+    "name": "140"
+  },
+  "796": {
+    "room_id": 796,
+    "room_code": "MANDS 238",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "238 - Active Learning Classroom"
+  },
+  "53": {
+    "room_id": 53,
+    "room_code": "Ford Auditorium",
+    "building_id": 14,
+    "building_code": "Allen",
+    "name": "Ford Auditorium"
+  },
+  "660": {
+    "room_id": 660,
+    "room_code": "SMSN 199",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "199A/B - Classroom (MED-CCLCM)"
+  },
+  "881": {
+    "room_id": 881,
+    "room_code": "SMTH 349",
+    "building_id": 82,
+    "building_code": "AW Smith",
+    "name": "349"
+  },
+  "661": {
+    "room_id": 661,
+    "room_code": "SMSN 199A",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "199A - Classroom (MED-CCLCM)"
+  },
+  "291": {
+    "room_id": 291,
+    "room_code": "HARK CLAS",
+    "building_id": 70,
+    "building_code": "Harkness",
+    "name": "Classroom"
+  },
+  "309": {
+    "room_id": 309,
+    "room_code": "NORD 410",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "410"
+  },
+  "1074": {
+    "room_id": 1074,
+    "room_code": "NOA G34",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G34"
+  },
+  "299": {
+    "room_id": 299,
+    "room_code": "MTHM 125",
+    "building_id": 75,
+    "building_code": "Mather Memorial",
+    "name": "125-Active Learning"
+  },
+  "283": {
+    "room_id": 283,
+    "room_code": "DGRC 312",
+    "building_id": 65,
+    "building_code": "DeGrace",
+    "name": "312"
+  },
+  "289": {
+    "room_id": 289,
+    "room_code": "GUIL 317",
+    "building_id": 18,
+    "building_code": "Guilford",
+    "name": "317"
+  },
+  "69": {
+    "room_id": 69,
+    "room_code": "Auditorium",
+    "building_id": 21,
+    "building_code": "Strosacker",
+    "name": "Strosacker Auditorium"
+  },
+  "300": {
+    "room_id": 300,
+    "room_code": "MTHM 225",
+    "building_id": 75,
+    "building_code": "Mather Memorial",
+    "name": "225"
+  },
+  "22": {
+    "room_id": 22,
+    "room_code": "THWG 301",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Room 301"
+  },
+  "288": {
+    "room_id": 288,
+    "room_code": "GUIL 301",
+    "building_id": 18,
+    "building_code": "Guilford",
+    "name": "301"
+  },
+  "277": {
+    "room_id": 277,
+    "room_code": "CLRK 110",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "110"
+  },
+  "809": {
+    "room_id": 809,
+    "room_code": "MANDC 106",
+    "building_id": 122,
+    "building_code": "Mandel Center",
+    "name": "106 - Classroom"
+  },
+  "301": {
+    "room_id": 301,
+    "room_code": "Schmitt Auditorium",
+    "building_id": 73,
+    "building_code": "Millis",
+    "name": "Schmitt Auditorium"
+  },
+  "16": {
+    "room_id": 16,
+    "room_code": "THWG 201",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Room 201"
+  },
+  "328": {
+    "room_id": 328,
+    "room_code": "ROCK 304",
+    "building_id": 80,
+    "building_code": "Rockefeller",
+    "name": "304"
+  },
+  "342": {
+    "room_id": 342,
+    "room_code": "SEAR 548",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "548"
+  },
+  "290": {
+    "room_id": 290,
+    "room_code": "GUIL 323",
+    "building_id": 18,
+    "building_code": "Guilford",
+    "name": "323"
+  },
+  "1072": {
+    "room_id": 1072,
+    "room_code": "NOA G31",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G31 (previously 31A)"
+  },
+  "808": {
+    "room_id": 808,
+    "room_code": "MANDC 105",
+    "building_id": 122,
+    "building_code": "Mandel Center",
+    "name": "105 - Classroom"
+  },
+  "64": {
+    "room_id": 64,
+    "room_code": "CRAW 11A",
+    "building_id": 15,
+    "building_code": "Crawford",
+    "name": "11A"
+  },
+  "23": {
+    "room_id": 23,
+    "room_code": "THWG 302",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Room 302"
+  },
+  "308": {
+    "room_id": 308,
+    "room_code": "NORD 400",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "400"
+  },
+  "868": {
+    "room_id": 868,
+    "room_code": "BING 240",
+    "building_id": 61,
+    "building_code": "Bingham",
+    "name": "240-Active Learning"
+  },
+  "377": {
+    "room_id": 377,
+    "room_code": "GLEN 408",
+    "building_id": 67,
+    "building_code": "Glennan",
+    "name": "408 - Zahn Lecture Hall"
+  },
+  "280": {
+    "room_id": 280,
+    "room_code": "CLRK 302",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "302"
+  },
+  "295": {
+    "room_id": 295,
+    "room_code": "KHSM 119",
+    "building_id": 72,
+    "building_code": "KH Smith",
+    "name": "119"
+  },
+  "777": {
+    "room_id": 777,
+    "room_code": "SEAR 336",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "336"
+  },
+  "828": {
+    "room_id": 828,
+    "room_code": "DEN WADE",
+    "building_id": 64,
+    "building_code": "Denison",
+    "name": "119 - Wade Rehearsal Hall"
+  },
+  "282": {
+    "room_id": 282,
+    "room_code": "CLRK 309",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "309"
+  },
+  "495": {
+    "room_id": 495,
+    "room_code": "E321A",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E321A Academic Classroom"
+  },
+  "326": {
+    "room_id": 326,
+    "room_code": "ROCK 301",
+    "building_id": 80,
+    "building_code": "Rockefeller",
+    "name": "301"
+  },
+  "281": {
+    "room_id": 281,
+    "room_code": "CLRK 308",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "308"
+  },
+  "346": {
+    "room_id": 346,
+    "room_code": "WHTE 324",
+    "building_id": 83,
+    "building_code": "White",
+    "name": "324"
+  },
+  "287": {
+    "room_id": 287,
+    "room_code": "GLEN 716",
+    "building_id": 67,
+    "building_code": "Glennan",
+    "name": "716"
+  },
+  "303": {
+    "room_id": 303,
+    "room_code": "NORD 206",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "206"
+  },
+  "1073": {
+    "room_id": 1073,
+    "room_code": "NOA G33",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G33"
+  },
+  "304": {
+    "room_id": 304,
+    "room_code": "NORD 211",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "211"
+  },
+  "276": {
+    "room_id": 276,
+    "room_code": "CLRK 104",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "104"
+  },
+  "63": {
+    "room_id": 63,
+    "room_code": "CRAW 09A",
+    "building_id": 15,
+    "building_code": "Crawford",
+    "name": "09A"
+  },
+  "296": {
+    "room_id": 296,
+    "room_code": "KHSM 123",
+    "building_id": 72,
+    "building_code": "KH Smith",
+    "name": "123"
+  },
+  "272": {
+    "room_id": 272,
+    "room_code": "CLPP 108",
+    "building_id": 62,
+    "building_code": "Clapp",
+    "name": "108"
+  },
+  "1065": {
+    "room_id": 1065,
+    "room_code": "NOA G21",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G21 (previously 210)"
+  },
+  "776": {
+    "room_id": 776,
+    "room_code": "SEAR 333",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "333"
+  },
+  "278": {
+    "room_id": 278,
+    "room_code": "CLRK 205",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "205"
+  },
+  "279": {
+    "room_id": 279,
+    "room_code": "CLRK 210",
+    "building_id": 63,
+    "building_code": "Clark",
+    "name": "210"
+  },
+  "340": {
+    "room_id": 340,
+    "room_code": "SEAR 542",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "542"
+  },
+  "775": {
+    "room_id": 775,
+    "room_code": "SEAR 325",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "325"
+  },
+  "273": {
+    "room_id": 273,
+    "room_code": "CLPP 201",
+    "building_id": 62,
+    "building_code": "Clapp",
+    "name": "201"
+  },
+  "779": {
+    "room_id": 779,
+    "room_code": "SEAR 439",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "439"
+  },
+  "797": {
+    "room_id": 797,
+    "room_code": "MANDS 244",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "244 - Active Learning Classroom"
+  },
+  "307": {
+    "room_id": 307,
+    "room_code": "NORD 356",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "356-Active Learning"
+  },
+  "902": {
+    "room_id": 902,
+    "room_code": "GLEN 313",
+    "building_id": 67,
+    "building_code": "Glennan",
+    "name": "313"
+  },
+  "810": {
+    "room_id": 810,
+    "room_code": "MANDC 107",
+    "building_id": 122,
+    "building_code": "Mandel Center",
+    "name": "107 - Classroom"
+  },
+  "31": {
+    "room_id": 31,
+    "room_code": "THWG 101",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Room 101"
+  },
+  "339": {
+    "room_id": 339,
+    "room_code": "SEAR 541",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "541"
+  },
+  "330": {
+    "room_id": 330,
+    "room_code": "ROCK 309",
+    "building_id": 80,
+    "building_code": "Rockefeller",
+    "name": "309"
+  },
+  "292": {
+    "room_id": 292,
+    "room_code": "HYDN 207",
+    "building_id": 71,
+    "building_code": "Haydn",
+    "name": "207"
+  },
+  "654": {
+    "room_id": 654,
+    "room_code": "SMSN 213N",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213N1/N2 - Medium Group Room (DEN)"
+  },
+  "653": {
+    "room_id": 653,
+    "room_code": "SMSN 213N2",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213N2 - Small  Group Room (DEN)"
+  },
+  "652": {
+    "room_id": 652,
+    "room_code": "SMSN 213N1",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213N1 - Small  Group Room (DEN)"
+  },
+  "606": {
+    "room_id": 606,
+    "room_code": "SMSN 289T",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289T - Small Group Rm (w/extra prjctr) (MED-CCLCM)"
+  },
+  "662": {
+    "room_id": 662,
+    "room_code": "SMSN 199B",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "199B - Classroom (MED-CCLCM)"
+  },
+  "564": {
+    "room_id": 564,
+    "room_code": "SMSN 176",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "176 - Tiered Lecture Hall (MED-Univ)"
+  },
+  "605": {
+    "room_id": 605,
+    "room_code": "SMSN 289S",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289S - Small Group Rm (w/extra prjctr) (MED-CCLCM)"
+  },
+  "566": {
+    "room_id": 566,
+    "room_code": "SMSN 119",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "119 - Team Based Learning Classroom (MED-Univ)"
+  },
+  "596": {
+    "room_id": 596,
+    "room_code": "SMSN 213A",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213A - Small Group Room (MED-Univ)"
+  },
+  "599": {
+    "room_id": 599,
+    "room_code": "SMSN 213D",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213D - Small Group Room (MED-Univ)"
+  },
+  "567": {
+    "room_id": 567,
+    "room_code": "SMSN 181",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "181 - Team Based Learning Classroom (MED-Univ)"
+  },
+  "588": {
+    "room_id": 588,
+    "room_code": "SMSN 213P",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213P - Small Group Room (MED-Univ)"
+  },
+  "329": {
+    "room_id": 329,
+    "room_code": "ROCK 306",
+    "building_id": 80,
+    "building_code": "Rockefeller",
+    "name": "306"
+  },
+  "613": {
+    "room_id": 613,
+    "room_code": "SMSN 213S",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213S - Small Group Rm (w/extra prjctr) (MED-Univ)"
+  },
+  "594": {
+    "room_id": 594,
+    "room_code": "SMSN 213U",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213U - Small Group Rm (w/extra prjctr) (MED-Univ)"
+  },
+  "592": {
+    "room_id": 592,
+    "room_code": "SMSN 213H",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213H - Small Group Room (MED-Univ)"
+  },
+  "595": {
+    "room_id": 595,
+    "room_code": "SMSN 213V",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213V - Small Group Rm (w/extra prjctr) (MED-Univ)"
+  },
+  "598": {
+    "room_id": 598,
+    "room_code": "SMSN 213C",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213C - Small Group Room (MED-Univ)"
+  },
+  "609": {
+    "room_id": 609,
+    "room_code": "SMSN 289C",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289C - Small Group Room (MED-Univ)"
+  },
+  "600": {
+    "room_id": 600,
+    "room_code": "SMSN 289M",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289M - Small Group Room (MED-Univ)"
+  },
+  "604": {
+    "room_id": 604,
+    "room_code": "SMSN 289R",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289R - Small Group Rm (w/extra prjctr) (MED-CCLCM)"
+  },
+  "607": {
+    "room_id": 607,
+    "room_code": "SMSN 289A",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289A - Small Group Room (MED-Univ)"
+  },
+  "615": {
+    "room_id": 615,
+    "room_code": "SMSN 213J",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213J - Small Group Room (MED-Univ)"
+  },
+  "608": {
+    "room_id": 608,
+    "room_code": "SMSN 289B",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289B - Small Group Room (MED-Univ)"
+  },
+  "446": {
+    "room_id": 446,
+    "room_code": "HARK CHAP",
+    "building_id": 70,
+    "building_code": "Harkness",
+    "name": "Chapel"
+  },
+  "590": {
+    "room_id": 590,
+    "room_code": "SMSN 213T",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213T - Small Group Rm (w/extra prjctr) (MED-Univ)"
+  },
+  "563": {
+    "room_id": 563,
+    "room_code": "SMSN 228",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "228 - Anatomy Classroom (MED)"
+  },
+  "302": {
+    "room_id": 302,
+    "room_code": "NORD 204",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "204"
+  },
+  "610": {
+    "room_id": 610,
+    "room_code": "SMSN 289D",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289D - Small Group Room (MED-Univ)"
+  },
+  "603": {
+    "room_id": 603,
+    "room_code": "SMSN 289Q",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289Q - Small Group Rm (w/extra prjctr) (MED-CCLCM)"
+  },
+  "593": {
+    "room_id": 593,
+    "room_code": "SMSN 213E",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213E - Small Group Room (MED-Univ)"
+  },
+  "602": {
+    "room_id": 602,
+    "room_code": "SMSN 289P",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289P - Small Group Room (MED-Univ)"
+  },
+  "573": {
+    "room_id": 573,
+    "room_code": "SMSN 289K1",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289K1 - Small Group Room (MED-Univ)"
+  },
+  "574": {
+    "room_id": 574,
+    "room_code": "SMSN 289K2",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289K2 - Small Group Room (MED-Univ)"
+  },
+  "98": {
+    "room_id": 98,
+    "room_code": "Studio",
+    "building_id": 29,
+    "building_code": "VILL",
+    "name": "Village Dance Studio"
+  },
+  "49": {
+    "room_id": 49,
+    "room_code": "AH M2",
+    "building_id": 12,
+    "building_code": "AH",
+    "name": "M2"
+  },
+  "878": {
+    "room_id": 878,
+    "room_code": "Multipurpose Room 75",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Multipurpose Room 75"
+  },
+  "575": {
+    "room_id": 575,
+    "room_code": "SMSN 289K",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289K1/K2 - Medium Group Room (MED-Univ)"
+  },
+  "798": {
+    "room_id": 798,
+    "room_code": "MANDS 336",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "336 - Classroom"
+  },
+  "1046": {
+    "room_id": 1046,
+    "room_code": "301B",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "301 B"
+  },
+  "491": {
+    "room_id": 491,
+    "room_code": "WRB 1223B",
+    "building_id": 100,
+    "building_code": "WRB",
+    "name": "Conference Room  1223B"
+  },
+  "159": {
+    "room_id": 159,
+    "room_code": "H3CT",
+    "building_id": 37,
+    "building_code": "V115-3a",
+    "name": "Clock Tower"
+  },
+  "483": {
+    "room_id": 483,
+    "room_code": "T501",
+    "building_id": 99,
+    "building_code": "Sears Tower",
+    "name": "Conference Room T501"
+  },
+  "689": {
+    "room_id": 689,
+    "room_code": "SMSN 160L",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "160L - Conference Room 10p (MED)"
+  },
+  "523": {
+    "room_id": 523,
+    "room_code": "E321/323",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E321/323 Academic Classroom"
+  },
+  "811": {
+    "room_id": 811,
+    "room_code": "MANDC 108",
+    "building_id": 122,
+    "building_code": "Mandel Center",
+    "name": "108 - Classroom/Lecture Hall"
+  },
+  "601": {
+    "room_id": 601,
+    "room_code": "SMSN 289N",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289N - Small Group Room (MED-Univ)"
+  },
+  "498": {
+    "room_id": 498,
+    "room_code": "E325A",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E325A Academic Classroom"
+  },
+  "572": {
+    "room_id": 572,
+    "room_code": "SMSN 289L",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289L1/L2 - Medium Group Room (MED-Univ)"
+  },
+  "482": {
+    "room_id": 482,
+    "room_code": "BRB 105",
+    "building_id": 98,
+    "building_code": "BRB",
+    "name": "Auditorium BRB105"
+  },
+  "791": {
+    "room_id": 791,
+    "room_code": "MANDS 275F",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "275F - Conference Room"
+  },
+  "97": {
+    "room_id": 97,
+    "room_code": "Spartan Room 273 ",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Spartan Room (273)"
+  },
+  "587": {
+    "room_id": 587,
+    "room_code": "SMSN 289F",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289F1/F2 - Medium Group Room (MED-Univ)"
+  },
+  "293": {
+    "room_id": 293,
+    "room_code": "HYDN 311",
+    "building_id": 71,
+    "building_code": "Haydn",
+    "name": "311"
+  },
+  "571": {
+    "room_id": 571,
+    "room_code": "SMSN 289L2",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289L2 - Small Group Room (MED-Univ)"
+  },
+  "589": {
+    "room_id": 589,
+    "room_code": "SMSN 213R",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213R -Small Group Room (MED-Univ)"
+  },
+  "484": {
+    "room_id": 484,
+    "room_code": "T503",
+    "building_id": 99,
+    "building_code": "Sears Tower",
+    "name": "Conference Room T503"
+  },
+  "616": {
+    "room_id": 616,
+    "room_code": "SMSN 153A",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "153A - Classroom (NUR)"
+  },
+  "510": {
+    "room_id": 510,
+    "room_code": "E429A",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E429A Academic Classroom"
+  },
+  "830": {
+    "room_id": 830,
+    "room_code": "DEN SPRTN",
+    "building_id": 64,
+    "building_code": "Denison",
+    "name": "Spartan Rehearsal Hall"
+  },
+  "952": {
+    "room_id": 952,
+    "room_code": "HYDN 19",
+    "building_id": 71,
+    "building_code": "Haydn",
+    "name": "19 - HPP Studio"
+  },
+  "1062": {
+    "room_id": 1062,
+    "room_code": "NOA G13",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G13 (previously 130)"
+  },
+  "827": {
+    "room_id": 827,
+    "room_code": "DEN REH",
+    "building_id": 64,
+    "building_code": "Denison",
+    "name": "160 - Denison Rehearsal Hall"
+  },
+  "294": {
+    "room_id": 294,
+    "room_code": "HYDN 312",
+    "building_id": 71,
+    "building_code": "Haydn",
+    "name": "312"
+  },
+  "586": {
+    "room_id": 586,
+    "room_code": "SMSN 289F2",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289F2 - Small Group Room (MED)"
+  },
+  "617": {
+    "room_id": 617,
+    "room_code": "SMSN 153B",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "153B - Classroom (NUR)"
+  },
+  "622": {
+    "room_id": 622,
+    "room_code": "SMSN 243F",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243F - Small Group Room (NUR)"
+  },
+  "591": {
+    "room_id": 591,
+    "room_code": "SMSN 213K",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213K - Small Group Room (MED-Univ)"
+  },
+  "585": {
+    "room_id": 585,
+    "room_code": "SMSN 289F1",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289F1 - Small Group Room (MED)"
+  },
+  "1070": {
+    "room_id": 1070,
+    "room_code": "NOA G29",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G29 (previously 290)"
+  },
+  "496": {
+    "room_id": 496,
+    "room_code": "E322",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E322 Academic Classroom"
+  },
+  "638": {
+    "room_id": 638,
+    "room_code": "SMSN 149",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "149A/B - Classroom (DEN)"
+  },
+  "658": {
+    "room_id": 658,
+    "room_code": "SMSN 103A",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "103A - Classroom (MED-Univ)"
+  },
+  "626": {
+    "room_id": 626,
+    "room_code": "SMSN 153",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "153A/B - Classroom (NUR)"
+  },
+  "640": {
+    "room_id": 640,
+    "room_code": "SMSN 149B",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "149B - Classroom (DEN)"
+  },
+  "487": {
+    "room_id": 487,
+    "room_code": "WRB 1413",
+    "building_id": 100,
+    "building_code": "WRB",
+    "name": "Auditorium 1413"
+  },
+  "639": {
+    "room_id": 639,
+    "room_code": "SMSN 149A",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "149A - Classroom (DEN)"
+  },
+  "569": {
+    "room_id": 569,
+    "room_code": "SMSN 103",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "103A/B - Classroom (MED-Univ)"
+  },
+  "629": {
+    "room_id": 629,
+    "room_code": "SMSN 230",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "230 - Classroom (Bioinformatics) (NUR)"
+  },
+  "619": {
+    "room_id": 619,
+    "room_code": "SMSN 169",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "169 - Classroom (NUR)"
+  },
+  "502": {
+    "room_id": 502,
+    "room_code": "E401",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E401 Academic Lecture Hall"
+  },
+  "665": {
+    "room_id": 665,
+    "room_code": "SMSN 243B1",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243B1 - Small Group Room (NUR)"
+  },
+  "1": {
+    "room_id": 1,
+    "room_code": "134A",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Senior Classroom A"
+  },
+  "88": {
+    "room_id": 88,
+    "room_code": "150",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Student Organization Center"
+  },
+  "14": {
+    "room_id": 14,
+    "room_code": "Pioneer Room",
+    "building_id": 3,
+    "building_code": "Wade Commons",
+    "name": "Pioneer Room"
+  },
+  "2": {
+    "room_id": 2,
+    "room_code": "134B",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Senior Classroom B"
+  },
+  "597": {
+    "room_id": 597,
+    "room_code": "SMSN 213B",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213B - Small Group Room (MED-Univ)"
+  },
+  "614": {
+    "room_id": 614,
+    "room_code": "SMSN 213L",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213L - Small Group Room (MED-Univ)"
+  },
+  "3": {
+    "room_id": 3,
+    "room_code": "134",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Senior Classroom"
+  },
+  "641": {
+    "room_id": 641,
+    "room_code": "SMSN 201",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "201 -  Classroom (DEN)"
+  },
+  "642": {
+    "room_id": 642,
+    "room_code": "SMSN 251",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "251 - Classroom (DEN)"
+  },
+  "795": {
+    "room_id": 795,
+    "room_code": "MANDS 236",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "236 - Classroom"
+  },
+  "719": {
+    "room_id": 719,
+    "room_code": "SMSN 419",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "419 Conference Room 16p (MED)"
+  },
+  "27": {
+    "room_id": 27,
+    "room_code": "Cleveland Room",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Cleveland Room (177)"
+  },
+  "799": {
+    "room_id": 799,
+    "room_code": "MANDS 338",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "338 - Active Learning Classroom"
+  },
+  "297": {
+    "room_id": 297,
+    "room_code": "MTHH 02",
+    "building_id": 74,
+    "building_code": "Mather House",
+    "name": "02"
+  },
+  "15": {
+    "room_id": 15,
+    "room_code": "Ballroom ",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Excelsior Ballroom (229)"
+  },
+  "124": {
+    "room_id": 124,
+    "room_code": "BR",
+    "building_id": 42,
+    "building_code": "Alumni Center",
+    "name": "Board Room"
+  },
+  "621": {
+    "room_id": 621,
+    "room_code": "SMSN 243B",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243B1/B2 - Medium Group Room (NUR)"
+  },
+  "800": {
+    "room_id": 800,
+    "room_code": "MANDS 344",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "344 - Active Learning Classroom"
+  },
+  "666": {
+    "room_id": 666,
+    "room_code": "SMSN 243B2",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243B2 - Small Group Room (NUR)"
+  },
+  "659": {
+    "room_id": 659,
+    "room_code": "SMSN 103B",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "103B - Classroom (MED-Univ)"
+  },
+  "305": {
+    "room_id": 305,
+    "room_code": "NORD 212",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "212"
+  },
+  "612": {
+    "room_id": 612,
+    "room_code": "SMSN 213Q",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213Q - Small Group Room (MED-Univ)"
+  },
+  "792": {
+    "room_id": 792,
+    "room_code": "MANDS 365",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "365 - Conference Room"
+  },
+  "274": {
+    "room_id": 274,
+    "room_code": "CLPP 305",
+    "building_id": 62,
+    "building_code": "Clapp",
+    "name": "305"
+  },
+  "5": {
+    "room_id": 5,
+    "room_code": "245",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Second Floor Conference Room"
+  },
+  "306": {
+    "room_id": 306,
+    "room_code": "NORD 213",
+    "building_id": 77,
+    "building_code": "Nord",
+    "name": "213"
+  },
+  "494": {
+    "room_id": 494,
+    "room_code": "E301",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E301 Academic Lecture Hall"
+  },
+  "1020": {
+    "room_id": 1020,
+    "room_code": "Room 211",
+    "building_id": 265,
+    "building_code": "",
+    "name": "Room 211"
+  },
+  "20": {
+    "room_id": 20,
+    "room_code": "Meeting Room 218",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Meeting Room 218"
+  },
+  "501": {
+    "room_id": 501,
+    "room_code": "E328A",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E328A Academic Classroom"
+  },
+  "664": {
+    "room_id": 664,
+    "room_code": "SMSN 243A2",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243A2 - Small Group Room (NUR)"
+  },
+  "458": {
+    "room_id": 458,
+    "room_code": "GUND 158",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "158"
+  },
+  "1043": {
+    "room_id": 1043,
+    "room_code": "M03",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "M 03"
+  },
+  "490": {
+    "room_id": 490,
+    "room_code": "WRB 1217",
+    "building_id": 100,
+    "building_code": "WRB",
+    "name": "Conference Room  1217"
+  },
+  "17": {
+    "room_id": 17,
+    "room_code": "Meeting Room 224",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Meeting Room 224"
+  },
+  "790": {
+    "room_id": 790,
+    "room_code": "MANDS 219",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "219 - Conference Room"
+  },
+  "1009": {
+    "room_id": 1009,
+    "room_code": "Auditorium",
+    "building_id": 265,
+    "building_code": "",
+    "name": "Auditorium 203"
+  },
+  "623": {
+    "room_id": 623,
+    "room_code": "SMSN 243E",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243E - Small Group Room (NUR)"
+  },
+  "461": {
+    "room_id": 461,
+    "room_code": "GUND A57",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A57"
+  },
+  "625": {
+    "room_id": 625,
+    "room_code": "SMSN 243D",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243D - Small Group Room (NUR)"
+  },
+  "570": {
+    "room_id": 570,
+    "room_code": "SMSN 289L1",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289L1 - Small Group Room (MED-Univ)"
+  },
+  "611": {
+    "room_id": 611,
+    "room_code": "SMSN 289E",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "289E - Small Group Room (MED-Univ)"
+  },
+  "1059": {
+    "room_id": 1059,
+    "room_code": "NOA G03",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G03 (previously 030)"
+  },
+  "813": {
+    "room_id": 813,
+    "room_code": "MANDC P2",
+    "building_id": 122,
+    "building_code": "Mandel Center",
+    "name": "Parking Space 2"
+  },
+  "123": {
+    "room_id": 123,
+    "room_code": "LR",
+    "building_id": 42,
+    "building_code": "Alumni Center",
+    "name": "Living Room"
+  },
+  "663": {
+    "room_id": 663,
+    "room_code": "SMSN 243A1",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243A1 - Small Group Room (NUR)"
+  },
+  "463": {
+    "room_id": 463,
+    "room_code": "GUND A59",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A59 - Moot Court Room"
+  },
+  "466": {
+    "room_id": 466,
+    "room_code": "GUND A63b",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A63b"
+  },
+  "457": {
+    "room_id": 457,
+    "room_code": "GUND 157",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "157"
+  },
+  "101": {
+    "room_id": 101,
+    "room_code": "T02",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Table 2"
+  },
+  "945": {
+    "room_id": 945,
+    "room_code": "MR 204",
+    "building_id": 8,
+    "building_code": "FC",
+    "name": "Multipurpose Room/Lounge - 204"
+  },
+  "829": {
+    "room_id": 829,
+    "room_code": "SMSN 401",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "401 - Conference Room 20p (MED)"
+  },
+  "459": {
+    "room_id": 459,
+    "room_code": "GUND 159",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "159"
+  },
+  "462": {
+    "room_id": 462,
+    "room_code": "GUND A58",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A58"
+  },
+  "468": {
+    "room_id": 468,
+    "room_code": "GUND A65",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A65"
+  },
+  "812": {
+    "room_id": 812,
+    "room_code": "MANDC P1",
+    "building_id": 122,
+    "building_code": "Mandel Center",
+    "name": "Parking Space 1"
+  },
+  "464": {
+    "room_id": 464,
+    "room_code": "GUND A62",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A62 - Active Learning Classroom"
+  },
+  "465": {
+    "room_id": 465,
+    "room_code": "GUND A63a",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A63a"
+  },
+  "469": {
+    "room_id": 469,
+    "room_code": "GUND A66",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A66"
+  },
+  "343": {
+    "room_id": 343,
+    "room_code": "SMTH 01",
+    "building_id": 82,
+    "building_code": "AW Smith",
+    "name": "01"
+  },
+  "1013": {
+    "room_id": 1013,
+    "room_code": "HYDN 102",
+    "building_id": 71,
+    "building_code": "Haydn",
+    "name": "102"
+  },
+  "76": {
+    "room_id": 76,
+    "room_code": "CM",
+    "building_id": 7,
+    "building_code": "CC",
+    "name": "Multi-Purpose Room"
+  },
+  "66": {
+    "room_id": 66,
+    "room_code": "GUIL Dining &amp; Parlor",
+    "building_id": 18,
+    "building_code": "Guilford",
+    "name": "Dining and Parlor"
+  },
+  "643": {
+    "room_id": 643,
+    "room_code": "SMSN 213F",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213F1/F2 - Medium Group Room (DEN)"
+  },
+  "103": {
+    "room_id": 103,
+    "room_code": "T04",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Table 4"
+  },
+  "467": {
+    "room_id": 467,
+    "room_code": "GUND A64",
+    "building_id": 69,
+    "building_code": "Gund",
+    "name": "A64"
+  },
+  "12": {
+    "room_id": 12,
+    "room_code": "234BC",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Ballroom B + C"
+  },
+  "1069": {
+    "room_id": 1069,
+    "room_code": "NOA G28",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G28 (previously 280)"
+  },
+  "21": {
+    "room_id": 21,
+    "room_code": "Meeting Room 206",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Meeting Room 206"
+  },
+  "102": {
+    "room_id": 102,
+    "room_code": "T03",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Table 3"
+  },
+  "151": {
+    "room_id": 151,
+    "room_code": "Meeting Room 324",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Meeting Room 324"
+  },
+  "706": {
+    "room_id": 706,
+    "room_code": "SMSN 231E",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "231E - Conference Room 12p (NUR)"
+  },
+  "25": {
+    "room_id": 25,
+    "room_code": "Bellflower Lounge",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Bellflower Lounge (290)"
+  },
+  "324": {
+    "room_id": 324,
+    "room_code": "OLIN 313",
+    "building_id": 78,
+    "building_code": "Olin",
+    "name": "313"
+  },
+  "773": {
+    "room_id": 773,
+    "room_code": "SEAR 315",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "315"
+  },
+  "1039": {
+    "room_id": 1039,
+    "room_code": "LL04",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Lower Level 04"
+  },
+  "1044": {
+    "room_id": 1044,
+    "room_code": "105A",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Virtual Meeting Room 105 A"
+  },
+  "1040": {
+    "room_id": 1040,
+    "room_code": "LL05",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Lower Level 05"
+  },
+  "949": {
+    "room_id": 949,
+    "room_code": "HYDN 211",
+    "building_id": 71,
+    "building_code": "Haydn",
+    "name": "211 - Practice Room"
+  },
+  "624": {
+    "room_id": 624,
+    "room_code": "SMSN 243C",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243C - Small Group Room (NUR)"
+  },
+  "913": {
+    "room_id": 913,
+    "room_code": "RMB 667",
+    "building_id": 51,
+    "building_code": "RMB",
+    "name": "Hotel Office 667"
+  },
+  "481": {
+    "room_id": 481,
+    "room_code": "BRB 100",
+    "building_id": 98,
+    "building_code": "BRB",
+    "name": "Lobby BRB100"
+  },
+  "907": {
+    "room_id": 907,
+    "room_code": "RMB 625",
+    "building_id": 51,
+    "building_code": "RMB",
+    "name": "Huddle Room 625"
+  },
+  "376": {
+    "room_id": 376,
+    "room_code": "GLEN 400",
+    "building_id": 67,
+    "building_code": "Glennan",
+    "name": "400 - Connelly Lecture Hall"
+  },
+  "1052": {
+    "room_id": 1052,
+    "room_code": "Quiet Study B",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Quiet Study B"
+  },
+  "1038": {
+    "room_id": 1038,
+    "room_code": "LL03",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Lower Level 03"
+  },
+  "100": {
+    "room_id": 100,
+    "room_code": "T01",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Table 1"
+  },
+  "1054": {
+    "room_id": 1054,
+    "room_code": "Quiet Study D",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Quiet Study D"
+  },
+  "18": {
+    "room_id": 18,
+    "room_code": "Red Cat Room",
+    "building_id": 3,
+    "building_code": "Wade Commons",
+    "name": "Red Cat Room"
+  },
+  "1007": {
+    "room_id": 1007,
+    "room_code": "MANDS 306",
+    "building_id": 121,
+    "building_code": "Mandel School",
+    "name": "306 - Zoom/Office Room"
+  },
+  "910": {
+    "room_id": 910,
+    "room_code": "RMB 631",
+    "building_id": 51,
+    "building_code": "RMB",
+    "name": "Hotel Office 631"
+  },
+  "908": {
+    "room_id": 908,
+    "room_code": "RMB 627",
+    "building_id": 51,
+    "building_code": "RMB",
+    "name": "Huddle Room 627"
+  },
+  "1048": {
+    "room_id": 1048,
+    "room_code": "301D",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "301 D"
+  },
+  "1042": {
+    "room_id": 1042,
+    "room_code": "M02",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "M 02"
+  },
+  "915": {
+    "room_id": 915,
+    "room_code": "RMB 671",
+    "building_id": 51,
+    "building_code": "RMB",
+    "name": "Hotel Office 671"
+  },
+  "914": {
+    "room_id": 914,
+    "room_code": "RMB 669",
+    "building_id": 51,
+    "building_code": "RMB",
+    "name": "Hotel Office 669"
+  },
+  "166": {
+    "room_id": 166,
+    "room_code": "ICR",
+    "building_id": 44,
+    "building_code": "STJH",
+    "name": "The Interactive Classroom"
+  },
+  "618": {
+    "room_id": 618,
+    "room_code": "SMSN 271",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "271 - TEAL Classroom (NUR)"
+  },
+  "4": {
+    "room_id": 4,
+    "room_code": "140",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "First Floor Conference Room"
+  },
+  "9": {
+    "room_id": 9,
+    "room_code": "Ballroom C",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Ballroom C"
+  },
+  "1053": {
+    "room_id": 1053,
+    "room_code": "Quiet Study C",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Quiet Study C"
+  },
+  "1041": {
+    "room_id": 1041,
+    "room_code": "M01",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "M 01"
+  },
+  "1037": {
+    "room_id": 1037,
+    "room_code": "LL02",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Lower Level 02"
+  },
+  "341": {
+    "room_id": 341,
+    "room_code": "SEAR 543",
+    "building_id": 81,
+    "building_code": "Sears",
+    "name": "543"
+  },
+  "1050": {
+    "room_id": 1050,
+    "room_code": "301F",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "301 F"
+  },
+  "986": {
+    "room_id": 986,
+    "room_code": "RMB 637",
+    "building_id": 51,
+    "building_code": "RMB",
+    "name": "Hotel Office 637"
+  },
+  "1049": {
+    "room_id": 1049,
+    "room_code": "301E",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "301 E"
+  },
+  "1047": {
+    "room_id": 1047,
+    "room_code": "301C",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "301 C"
+  },
+  "1061": {
+    "room_id": 1061,
+    "room_code": "NOA G06",
+    "building_id": 76,
+    "building_code": "NOA",
+    "name": "G06 (previously 060)"
+  },
+  "1051": {
+    "room_id": 1051,
+    "room_code": "Quiet Study A",
+    "building_id": 293,
+    "building_code": "KSL",
+    "name": "Quiet Study A"
+  },
+  "750": {
+    "room_id": 750,
+    "room_code": "Lower Level Lounge ",
+    "building_id": 5,
+    "building_code": "Thwing",
+    "name": "Lower Level Lounge 08"
+  },
+  "325": {
+    "room_id": 325,
+    "room_code": "OLIN 314",
+    "building_id": 78,
+    "building_code": "Olin",
+    "name": "314"
+  },
+  "125": {
+    "room_id": 125,
+    "room_code": "LIB",
+    "building_id": 42,
+    "building_code": "Alumni Center",
+    "name": "Library"
+  },
+  "645": {
+    "room_id": 645,
+    "room_code": "SMSN 213F2",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "213F2 - Small  Group Room (DEN)"
+  },
+  "10": {
+    "room_id": 10,
+    "room_code": "234",
+    "building_id": 1,
+    "building_code": "TVUC",
+    "name": "Ballroom (Full)"
+  },
+  "620": {
+    "room_id": 620,
+    "room_code": "SMSN 243A",
+    "building_id": 102,
+    "building_code": "Samson",
+    "name": "243A1/A2 - Medium Group Room (NUR)"
+  },
+  "243": {
+    "room_id": 243,
+    "room_code": "FULL",
+    "building_id": 42,
+    "building_code": "Alumni Center",
+    "name": "First Floor + Hall"
+  },
+  "802": {
+    "room_id": 802,
+    "room_code": "MANDC 115",
+    "building_id": 122,
+    "building_code": "Mandel Center",
+    "name": "115 &amp; Lounge"
+  },
+  "126": {
+    "room_id": 126,
+    "room_code": "FF",
+    "building_id": 42,
+    "building_code": "Alumni Center",
+    "name": "First Floor"
+  },
+  "500": {
+    "room_id": 500,
+    "room_code": "E327A",
+    "building_id": 101,
+    "building_code": "Robbins",
+    "name": "E327A Academic Classroom"
+  }
+}
