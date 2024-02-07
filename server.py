@@ -1,4 +1,5 @@
 import dataclasses
+from ipaddress import ip_address
 import json
 import logging
 from os import getenv
@@ -47,4 +48,4 @@ async def findRooms():
         return jsonify({"rooms": schedule})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run("0.0.0.0", debug=True)
