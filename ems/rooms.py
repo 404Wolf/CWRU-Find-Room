@@ -112,6 +112,10 @@ class Rooms:
             logger.debug(f"Response: {await response.text()}")
 
             data = await response.json()
+            if len(data) < 100:
+                self.session.auth()
+                data = await response.json()
+
             data = json.loads(data["d"])["Bookings"]
 
             bookings = {}
@@ -184,6 +188,7 @@ class Rooms:
         }
 
         async with self.session.post(url, json=json_data) as response:
+            print(await response.json())
             logger.info(f"Fetching room info for room {room_id}.")
 
             data = json.loads(await response.text())

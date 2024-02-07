@@ -7,8 +7,8 @@ from time import sleep, time
 
 import aiohttp
 from selenium.common import NoSuchElementException
+from seleniumwire.webdriver import Chrome, ChromeOptions
 from selenium.webdriver import Keys
-from seleniumwire.undetected_chromedriver.v2 import Chrome, ChromeOptions
 
 logger = logging.getLogger(__name__)
 
@@ -23,10 +23,6 @@ if "auth.json" not in os.listdir("cache"):
             f,
         )
 
-with open("cache/auth.json", "r") as f:
-    cached_auth = json.load(f)
-    if cached_auth["refresh_at"] < time():
-        cached_auth = {"auth_headers": {}, "auth_cookies": {}}
 
 
 def dump_auth(auth_headers, auth_cookies):
@@ -36,7 +32,7 @@ def dump_auth(auth_headers, auth_cookies):
             {
                 "auth_headers": auth_headers,
                 "auth_cookies": auth_cookies,
-                "refresh_at": time() + 6 * 60 * 60,  # 6 hours
+                "refresh_at": time() + 60 * 60 * 2
             },
             f,
             indent=2,
@@ -76,7 +72,15 @@ class AuthedClientSession(aiohttp.ClientSession):
 
         super().__init__(*args, **kwargs)
 
+    def auth(self):
+        self._login()
+
     def _login(self):
+        with open("cache/auth.json", "r") as f:
+            cached_auth = json.load(f)
+            if cached_auth["refresh_at"] < time():
+                cached_auth = {"auth_headers": {}, "auth_cookies": {}}
+
         if cached_auth["auth_headers"] and cached_auth["auth_cookies"]:
             self.auth_headers = cached_auth["auth_headers"]
             self.auth_cookies = cached_auth["auth_cookies"]
@@ -106,10 +110,15 @@ class AuthedClientSession(aiohttp.ClientSession):
                 username_field.send_keys(self.username)
                 break
             except NoSuchElementException or AttributeError:
-                driver.implicitly_wait(1)
+                sleep(4)
 
-        password_field = driver.find_element("id", "password")
-        password_field.send_keys(self.password)
+        for i in range(10):
+            try:
+                password_field = driver.find_element("id", "password")
+                password_field.send_keys(self.password)
+                break
+            except NoSuchElementException or AttributeError:
+                sleep(4)
 
         password_field.send_keys(Keys.RETURN)
 
