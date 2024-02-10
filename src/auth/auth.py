@@ -127,7 +127,7 @@ def reauth(username, password):
     logger.debug(f"Auth: {json.loads(cache.get('auth'))}")
 
 
-sleep(10)
+sleep(15)
 while True:
     try:
         reauth(username, password)
