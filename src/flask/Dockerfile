@@ -7,3 +7,6 @@ COPY requirements.txt requirements.txt
 
 # Install dependencies
 RUN pip install -r requirements.txt --no-cache-dir
+
+RUN mkdir cache
+RUN echo '{}' > 'cache/rooms.json'

@@ -17,14 +17,6 @@ cache = redis.Redis(host="redis", port=6379, db=0)
 load_dotenv()
 logging.basicConfig(level=logging.DEBUG)
 
-if "cache" not in os.listdir():
-    os.mkdir("cache")
-    with open("cache/auth.json", "w") as f:
-        json.dump({}, f)
-
-    with open("cache/rooms.json", "w") as f:
-        json.dump({}, f)
-
 with open("filters.json", "r") as f:
     filters = json.load(f)
 

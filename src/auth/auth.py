@@ -1,12 +1,10 @@
 import json
 import logging
 import os
-import re
 from time import sleep, time
 
 import urllib3
 
-# from seleniumwire.undetected_chromedriver import ChromeOptions
 from selenium.webdriver import FirefoxOptions
 import redis
 import schedule
