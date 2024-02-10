@@ -20,9 +20,6 @@ logging.basicConfig(level=logging.DEBUG)
 with open("filters.json", "r") as f:
     filters = json.load(f)
 
-with open("cache/auth.json", "r") as f:
-    auth = json.load(f)
-
 username, password = os.getenv("CASEID"), os.getenv("PASSWORD")
 
 
