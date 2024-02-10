@@ -4,7 +4,7 @@ services:
     ports:
       - "6379:6379"
   auther:
-    build: /auth
+    build: ./auth
     command: python auth.py
     ports:
       - "8080:8080"
@@ -19,7 +19,7 @@ services:
     volumes:
       - ./auth:/app
   server:
-    build: /flask
+    build: ./flask
     command: python server.py
     ports:
       - "5000:5000"
