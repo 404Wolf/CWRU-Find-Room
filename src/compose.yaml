@@ -18,7 +18,7 @@ services:
       - PASSWORD=${PASSWORD}
     volumes:
       - ./auth:/app
-  server:
+  flask:
     build: ./flask
     command: python server.py
     ports:
@@ -31,3 +31,4 @@ services:
     image: selenium/standalone-firefox
     ports:
       - "4444:4444"
+

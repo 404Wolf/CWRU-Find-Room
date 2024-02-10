@@ -59,7 +59,7 @@ def reauth(username, password):
     )
 
     driver = Remote(
-        command_executor=f"http://172.18.0.3:4444/wd/hub",
+        command_executor=f"http://firefox:4444/wd/hub",
         options=firefox_options,
     )
 
