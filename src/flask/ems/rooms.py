@@ -3,14 +3,13 @@ import atexit
 import json
 import os
 
-import aiohttp
 from datetime import datetime, timedelta
 from dataclasses import dataclass
 
 
 import logging
 
-from ems.auth import AuthedClientSession
+import aiohttp
 
 logger = logging.getLogger(__name__)
 
@@ -44,7 +43,7 @@ class Room:
 
 
 class Rooms:
-    def __init__(self, session: AuthedClientSession):
+    def __init__(self, session: aiohttp.ClientSession):
         self.session = session
 
     async def list_rooms(
@@ -112,10 +111,6 @@ class Rooms:
             logger.debug(f"Response: {await response.text()}")
 
             data = await response.json()
-            if len(data) < 100:
-                self.session.auth()
-                data = await response.json()
-
             data = json.loads(data["d"])["Bookings"]
 
             bookings = {}
@@ -204,3 +199,6 @@ class Rooms:
             cached_rooms[room_id] = room.__dict__
 
             return room
+
+    class AuthError(Exception):
+        pass

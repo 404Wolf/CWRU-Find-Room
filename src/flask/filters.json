@@ -13,6 +13,9 @@
     "noa",
     "auditorium",
     "lobby",
-    "balcony"
+    "balcony",
+    "fire",
+    "atrium",
+    "parking"
   ]
 }

@@ -1,5 +1,0 @@
-requests-html
-selenium-wire
-selenium
-python-dotenv
-flask[async]

@@ -1,0 +1,33 @@
+services:
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+  auther:
+    build: /auth
+    command: python auth.py
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+      - firefox
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - CASEID=${CASEID}
+      - PASSWORD=${PASSWORD}
+    volumes:
+      - ./auth:/app
+  server:
+    build: /flask
+    command: python server.py
+    ports:
+      - "5000:5000"
+    depends_on:
+      - auther
+    volumes:
+      - ./flask:/app
+  firefox:
+    image: selenium/standalone-firefox
+    ports:
+      - "4444:4444"
