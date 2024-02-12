@@ -161,13 +161,8 @@ def reauth(username: str, password: str):
     logger.debug(f"Auth: {json.loads(cache.get('auth'))}")
 
 
-sleep(10)
+sleep(12)
+reauth(username, password)
 while True:
-    try:
-        reauth(username, password)
-        while True:
-            schedule.run_pending()
-            sleep(1)
-    except urllib3.exceptions.MaxRetryError:
-        logger.error("Max retries exceeded")
-        sleep(1)
+    schedule.run_pending()
+    sleep(1)
