@@ -4,6 +4,7 @@ import logging
 import os
 from pprint import pprint
 from threading import Thread
+from time import sleep
 
 import redis
 from dotenv import load_dotenv
@@ -34,6 +35,8 @@ def keep_auth():
         new_cached_auth = cache.get("auth") or cached_auth
         if new_cached_auth:
             cached_auth = json.loads(new_cached_auth)
+        else:
+            sleep(2)
 
 
 Thread(target=keep_auth, daemon=True).start()
