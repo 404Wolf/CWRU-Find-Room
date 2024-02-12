@@ -148,8 +148,6 @@ def reauth(username: str, password: str):
             break
 
     logger.debug(f"Auth cookies: {auth_cookies}")
-    cache.set("auth", "auth_cookies", json.dumps(auth_cookies))
-
     cache.set("auth:cookies", json.dumps(auth_cookies))
     cache.set("auth:headers", json.dumps(auth_headers))
     cache.set("auth:expires_at", str(time() + 60 * 60 * 2))
