@@ -128,7 +128,11 @@ def reauth(username: str, password: str):
         logger.info("Was able to fetch: %s", successfully_fetched_auth_cookies)
 
         if "emsAuthToken" not in auth_cookies:
-            response = requests.get('https://case.emscloudservice.com/web/Default.aspx', cookies=cookies, headers=headers)
+            response = requests.get(
+                "https://case.emscloudservice.com/web/Default.aspx",
+                cookies=auth_cookies,
+                headers=auth_headers,
+            )
             logger.debug(f"Response: {response.text}, {response.headers}")
             if "emsAuthToken" in response.headers:
                 auth_cookies["emsAuthToken"] = response.headers["emsAuthToken"]
