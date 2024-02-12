@@ -72,7 +72,7 @@ def reauth(username: str, password: str):
     )
 
     # Before authenticating, make sure that we accept cookies
-    driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
+    driver.get("https://case.emscloudservice.com/web/Default.aspx")
     driver.implicitly_wait(1000)
     driver.find_element("id", "onetrust-accept-btn-handler").click()
 
