@@ -53,7 +53,6 @@ def reauth(username: str, password: str):
     firefox_options.add_argument("disable-infobars")
     firefox_options.add_argument("--disable-extensions")
     firefox_options.add_argument("--no-sandbox")
-    firefox_options.add_argument("--disable-application-cache")
     firefox_options.add_argument("--disable-gpu")
     firefox_options.add_argument("--disable-dev-shm-usage")
     firefox_options.add_argument("--ignore-certificate-errors")
