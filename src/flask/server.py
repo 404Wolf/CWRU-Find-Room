@@ -46,6 +46,12 @@ async def findRooms():
     logging.debug(f"cached_headers: {cached_headers}")
     logging.debug(f"cached_cookies: {cached_cookies}")
 
+    for header in cached_headers:
+        cached_headers[header] = cached_headers[header].decode("utf-8")
+
+    for cookie in cached_cookies:
+        cached_cookies[cookie] = cached_cookies[cookie].decode("utf-8")
+
     async with aiohttp.ClientSession(
         headers=cached_headers,
         cookies=cached_cookies,
