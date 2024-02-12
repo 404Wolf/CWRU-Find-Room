@@ -35,6 +35,13 @@ async def findRooms():
 
     print(cache.get("auth"))
     cached_auth = json.loads(cache.get("auth"))
+    if not cached_auth:
+        return jsonify(
+            {
+                "error": "No cached auth found. This means that the server is currently obtaining an auth token. Please try again soon."
+            },
+            500,
+        )
 
     async with aiohttp.ClientSession(
         cookies=(cookies := cached_auth["auth_cookies"]),
