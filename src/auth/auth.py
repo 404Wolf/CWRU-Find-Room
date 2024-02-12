@@ -51,7 +51,6 @@ auth_headers_template = {
 def reauth(username: str, password: str):
     firefox_options = FirefoxOptions()
     firefox_options.add_argument("--headless")
-    firefox_options.add_argument("start-maximized")
     firefox_options.add_argument("--no-sandbox")
     firefox_options.add_argument("--disable-gpu")
     firefox_options.add_argument("--ignore-certificate-errors")
@@ -100,10 +99,13 @@ def reauth(username: str, password: str):
         except NoSuchElementException or AttributeError:
             sleep(1)
 
+    driver.save_screenshot(f"debug-login-page.png")
     driver.find_element("id", "login-submit").click()
+    sleep(5)
 
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
-    driver.implicitly_wait(1000)
+    sleep(3)
+    driver.save_screenshot(f"debug-login-page-post-login.png")
 
     # Create auth headers
     auth_headers = auth_headers_template.copy()
@@ -140,6 +142,7 @@ def reauth(username: str, password: str):
 
         if len(successfully_fetched_auth_cookies) == len(auth_cookies_required):
             break
+
     logger.debug(f"Auth cookies: {auth_cookies}")
 
     cache.set(
