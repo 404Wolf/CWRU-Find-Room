@@ -145,15 +145,13 @@ def reauth(username: str, password: str):
 
     logger.debug(f"Auth cookies: {auth_cookies}")
 
-    cache.set(
+    cache.hset(
         "auth",
-        json.dumps(
-            {
-                "auth_cookies": auth_cookies,
-                "auth_headers": auth_headers,
-                "expires_at": int(time()) + 7200,
-            }
-        ),
+        mapping={
+            "auth_cookies": auth_cookies,
+            "auth_headers": auth_headers,
+            "expires_at": int(time()) + 7200,
+        },
     )
     cache.bgsave()
 
