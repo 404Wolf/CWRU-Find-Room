@@ -104,7 +104,10 @@ def reauth(username: str, password: str):
     sleep(2)
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
 
-    while True:
+    for i in range(4):
+        if i == 3:
+            raise ValueError("Failed to get auth cookies")
+
         try:
             auth_cookies = {
                 required_auth_cookie: driver.get_cookie(required_auth_cookie)["value"]
@@ -112,7 +115,7 @@ def reauth(username: str, password: str):
             }
         except TypeError:
             logger.error("Failed to get auth cookies")
-            driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
+            driver.save_screenshot("debug-screenshot.png")
             sleep(1)
             continue
     logger.debug(f"Auth cookies: {auth_cookies}")
