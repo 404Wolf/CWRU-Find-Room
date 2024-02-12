@@ -31,7 +31,9 @@ def keep_auth():
     global cached_auth
 
     while True:
-        cached_auth = cache.get("auth") or cached_auth
+        new_cached_auth = cache.get("auth") or cached_auth
+        if new_cached_auth:
+            cached_auth = json.loads(new_cached_auth)
 
 
 Thread(target=keep_auth, daemon=True).start()
