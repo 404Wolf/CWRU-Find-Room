@@ -44,7 +44,6 @@ async def findRooms():
         )
     cached_auth = json.loads(cached_auth)
 
-
     async with aiohttp.ClientSession(
         cookies=(cookies := cached_auth["auth_cookies"]),
         headers=(headers := cached_auth["auth_headers"]),
