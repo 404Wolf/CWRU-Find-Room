@@ -144,15 +144,12 @@ def reauth(username: str, password: str):
             break
 
     logger.debug(f"Auth cookies: {auth_cookies}")
+    cache.hset("auth", "auth_cookies", json.dumps(auth_cookies))
 
-    cache.hset(
-        "auth",
-        mapping={
-            "auth_cookies": auth_cookies,
-            "auth_headers": auth_headers,
-            "expires_at": int(time()) + 7200,
-        },
-    )
+    cache.hset("auth:cookies", mapping=auth_cookies)
+    cache.hset("auth:headers", mapping=auth_headers)
+    cache.set("auth:expires_at", time() + 60 * 60 * 2)
+
     cache.bgsave()
 
     logger.info("Auth refreshed")

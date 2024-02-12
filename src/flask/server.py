@@ -33,8 +33,8 @@ async def findRooms():
             {"error": "hours_from_now and duration_hours are required parameters"}, 400
         )
 
-    cached_headers = cache.hget("auth", "auth_headers")
-    cached_cookies = cache.hget("auth", "auth_cookies")
+    cached_headers = cache.hgetall("auth:cookies")
+    cached_cookies = cache.hgetall("auth:headers")
     if not cached_cookies or not cached_headers:
         return jsonify(
             {
