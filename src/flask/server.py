@@ -33,8 +33,8 @@ async def findRooms():
             {"error": "hours_from_now and duration_hours are required parameters"}, 400
         )
 
-    cached_headers = cache.hgetall("auth:cookies")
-    cached_cookies = cache.hgetall("auth:headers")
+    cached_headers = cache.get("auth:cookies")
+    cached_cookies = cache.get("auth:headers")
     if not cached_cookies or not cached_headers:
         return jsonify(
             {
@@ -43,6 +43,8 @@ async def findRooms():
             },
             500,
         )
+    cached_headers = json.loads(cached_headers)
+    cached_cookies = json.loads(cached_cookies)
     logging.debug(f"cached_headers: {cached_headers}")
     logging.debug(f"cached_cookies: {cached_cookies}")
 

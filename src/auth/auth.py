@@ -49,6 +49,10 @@ auth_headers_template = {
 
 @schedule.repeat(schedule.every(2).hours, username, password)
 def reauth(username: str, password: str):
+    if time() < cache.get("auth:expires_at"):
+        logger.info("Auth still valid")
+        return
+
     firefox_options = FirefoxOptions()
     firefox_options.add_argument("--headless")
     firefox_options.add_argument("--no-sandbox")
@@ -144,10 +148,10 @@ def reauth(username: str, password: str):
             break
 
     logger.debug(f"Auth cookies: {auth_cookies}")
-    cache.hset("auth", "auth_cookies", json.dumps(auth_cookies))
+    cache.set("auth", "auth_cookies", json.dumps(auth_cookies))
 
-    cache.hset("auth:cookies", mapping=auth_cookies)
-    cache.hset("auth:headers", mapping=auth_headers)
+    cache.set("auth:cookies", json.dumps(auth_cookies))
+    cache.set("auth:headers", json.dumps(auth_headers))
     cache.set("auth:expires_at", time() + 60 * 60 * 2)
     cache.persist("auth")
 
