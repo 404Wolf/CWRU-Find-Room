@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 from time import sleep, time
 
+import requests
 import urllib3
 
 from selenium.webdriver import FirefoxOptions
@@ -104,7 +105,15 @@ def reauth(username: str, password: str):
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
     driver.implicitly_wait(1000)
 
+    # Create auth headers
+    auth_headers = auth_headers_template.copy()
+    auth_headers["dea-CSRFToken"] = driver.find_element(
+        "id", "deaCSRFToken"
+    ).get_attribute("value")
+    logger.debug(f"Auth headers: {auth_headers}")
+
     successfully_fetched_auth_cookies = set()
+
     for i in range(4):
         if i == 3:
             raise ValueError("Failed to get auth cookies")
@@ -117,16 +126,17 @@ def reauth(username: str, password: str):
                 successfully_fetched_auth_cookies.add(required_auth_cookie)
 
         logger.info("Was able to fetch: %s", successfully_fetched_auth_cookies)
+
+        if "emsAuthToken" not in auth_cookies:
+            response = requests.get('https://case.emscloudservice.com/web/Default.aspx', cookies=cookies, headers=headers)
+            logger.debug(f"Response: {response.text}, {response.headers}")
+            if "emsAuthToken" in response.headers:
+                auth_cookies["emsAuthToken"] = response.headers["emsAuthToken"]
+                successfully_fetched_auth_cookies.add("emsAuthToken")
+
         if len(successfully_fetched_auth_cookies) == len(auth_cookies_required):
             break
     logger.debug(f"Auth cookies: {auth_cookies}")
-
-    # Create auth headers
-    auth_headers = auth_headers_template.copy()
-    auth_headers["dea-CSRFToken"] = driver.find_element(
-        "id", "deaCSRFToken"
-    ).get_attribute("value")
-    logger.debug(f"Auth headers: {auth_headers}")
 
     cache.set(
         "auth",
