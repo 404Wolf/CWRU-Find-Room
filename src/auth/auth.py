@@ -153,7 +153,6 @@ def reauth(username: str, password: str):
     cache.bgsave()
 
     logger.info("Auth refreshed")
-    logger.debug(f"Auth: {json.loads(cache.get('auth'))}")
 
 
 sleep(12)
