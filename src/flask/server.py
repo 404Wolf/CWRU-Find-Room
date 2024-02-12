@@ -32,7 +32,7 @@ def keep_auth():
     global cached_auth
 
     while True:
-        new_cached_auth = cache.get("auth") or cached_auth
+        new_cached_auth = cache.get("auth") or str(cached_auth)
         if new_cached_auth:
             cached_auth = json.loads(new_cached_auth)
         else:
