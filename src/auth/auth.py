@@ -90,7 +90,7 @@ def reauth(username, password):
 
     sleep(2)
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
-    sleep(2)
+    sleep(10)
 
     # Get the auth cookies
     auth_cookies = {
