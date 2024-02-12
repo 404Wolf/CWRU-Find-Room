@@ -48,7 +48,7 @@ async def findRooms():
 
     async with aiohttp.ClientSession(
         headers={header: cached_headers[header].encode("ascii") for header in tuple(cached_headers)},
-        cookies={header: cached_cookies[header].encode("ascii") for cookie in tuple(cached_cookies)},
+        cookies={cookie: cached_cookies[cookie].encode("ascii") for cookie in tuple(cached_cookies)},
     ) as session:
         rooms = Rooms(session)
         schedule = await rooms.list_rooms(int(hours_from_now), int(duration_hours))
