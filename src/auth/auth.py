@@ -71,7 +71,12 @@ def reauth(username: str, password: str):
         options=firefox_options,
     )
 
-    # Get the auth cookies
+    # Before authenticating, make sure that we accept cookies
+    driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
+    driver.implicitly_wait(1000)
+    driver.find_element("id", "onetrust-accept-btn-handler").click()
+
+    # Authenticate
     driver.get("https://case.emscloudservice.com/web/SamlAuth.aspx")
 
     # Submit the username
@@ -95,11 +100,6 @@ def reauth(username: str, password: str):
             sleep(1)
 
     driver.find_element("id", "login-submit").click()
-
-    driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
-    driver.implicitly_wait(1000)
-
-    driver.find_element("id", "onetrust-accept-btn-handler").click()
 
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
     driver.implicitly_wait(1000)
