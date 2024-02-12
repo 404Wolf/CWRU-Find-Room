@@ -43,6 +43,8 @@ async def findRooms():
             },
             500,
         )
+    logging.debug(f"cached_headers: {cached_headers}")
+    logging.debug(f"cached_cookies: {cached_cookies}")
 
     async with aiohttp.ClientSession(
         headers=cached_headers,
