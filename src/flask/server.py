@@ -3,6 +3,7 @@ import json
 import logging
 import os
 from pprint import pprint
+from threading import Thread
 
 import redis
 from dotenv import load_dotenv
@@ -23,8 +24,23 @@ with open("filters.json", "r") as f:
 username, password = os.getenv("CASEID"), os.getenv("PASSWORD")
 
 
+cached_auth = cache.get("auth")
+
+
+def keep_auth():
+    global cached_auth
+
+    while True:
+        cached_auth = cache.get("auth") or cached_auth
+
+
+Thread(target=keep_auth, daemon=True).start()
+
+
 @app.route("/find-rooms", methods=["GET"])
 async def findRooms():
+    global cached_auth
+
     hours_from_now = request.args.get("hours_from_now")
     duration_hours = request.args.get("duration_hours")
 
@@ -33,8 +49,6 @@ async def findRooms():
             {"error": "hours_from_now and duration_hours are required parameters"}, 400
         )
 
-    print(cache.get("auth"))
-    cached_auth = cache.get("auth")
     if not cached_auth:
         return jsonify(
             {
@@ -42,7 +56,6 @@ async def findRooms():
             },
             500,
         )
-    cached_auth = json.loads(cached_auth)
 
     async with aiohttp.ClientSession(
         cookies=(cookies := cached_auth["auth_cookies"]),
