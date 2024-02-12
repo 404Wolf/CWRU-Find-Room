@@ -105,15 +105,17 @@ def reauth(username: str, password: str):
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
 
     # Get the auth cookies
+    cookies_loaded = False
     while True:
-        try:
-            for required_auth_cookie in auth_cookies_required:
-                if driver.get_cookie(required_auth_cookie) is None:
-                    logger.info(f"Waiting for {required_auth_cookie} cookie")
-                    driver.implicitly_wait(1000)
-                    raise StopIteration()
-        except StopIteration:
+        if cookies_loaded:
             break
+
+        for required_auth_cookie in auth_cookies_required:
+            if driver.get_cookie(required_auth_cookie) is None:
+                logger.info(f"Waiting for {required_auth_cookie} cookie")
+                driver.implicitly_wait(1000)
+                break
+        cookies_loaded = True
 
     auth_cookies = {
         required_auth_cookie: driver.get_cookie(required_auth_cookie)["value"]
