@@ -33,25 +33,24 @@ async def findRooms():
             {"error": "hours_from_now and duration_hours are required parameters"}, 400
         )
 
-    cached_headers = cache.get("auth:cookies")
-    cached_cookies = cache.get("auth:headers")
-    if not cached_cookies or not cached_headers:
+    print(cache.get("auth"))
+    cached_auth = cache.get("auth")
+    if not cached_auth:
         return jsonify(
             {
-                "error": "No cached auth found. This means that the server is currently obtaining an auth token. "
-                         "Please try again soon."
+                "error": "No cached auth found. This means that the server is currently obtaining an auth token. Please try again soon."
             },
             500,
         )
-    cached_headers = json.loads(cached_headers)
-    cached_cookies = json.loads(cached_cookies)
-    logging.debug(f"cached_headers: {cached_headers}")
-    logging.debug(f"cached_cookies: {cached_cookies}")
+    cached_auth = json.loads(cached_auth)
+
 
     async with aiohttp.ClientSession(
-        headers=cached_headers,
-        cookies=cached_cookies,
+        cookies=(cookies := cached_auth["auth_cookies"]),
+        headers=(headers := cached_auth["auth_headers"]),
     ) as session:
+        pprint(cookies)
+        pprint(headers)
         rooms = Rooms(session)
         schedule = await rooms.list_rooms(int(hours_from_now), int(duration_hours))
 

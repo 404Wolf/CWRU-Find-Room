@@ -49,7 +49,7 @@ auth_headers_template = {
 
 @schedule.repeat(schedule.every(2).hours, username, password)
 def reauth(username: str, password: str):
-    if time() < float(cache.get("auth:expires_at")):
+    if cache.get("auth:expires_at") and float(cache.get("auth:expires_at")) > time():
         logger.info("Auth still valid")
         return
 
@@ -151,8 +151,9 @@ def reauth(username: str, password: str):
     cache.set("auth:cookies", json.dumps(auth_cookies))
     cache.set("auth:headers", json.dumps(auth_headers))
     cache.set("auth:expires_at", str(time() + 60 * 60 * 2))
-    cache.persist("auth")
-
+    cache.persist("auth:cookies")
+    cache.persist("auth:headers")
+    cache.persist("auth:expires_at")
     cache.bgsave()
 
     logger.info("Auth refreshed")
