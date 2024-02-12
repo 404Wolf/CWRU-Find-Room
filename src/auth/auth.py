@@ -149,6 +149,7 @@ def reauth(username: str, password: str):
     cache.hset("auth:cookies", mapping=auth_cookies)
     cache.hset("auth:headers", mapping=auth_headers)
     cache.set("auth:expires_at", time() + 60 * 60 * 2)
+    cache.persist("auth")
 
     cache.bgsave()
 
