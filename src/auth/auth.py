@@ -50,11 +50,8 @@ def reauth(username: str, password: str):
     firefox_options = FirefoxOptions()
     firefox_options.add_argument("--headless")
     firefox_options.add_argument("start-maximized")
-    firefox_options.add_argument("disable-infobars")
-    firefox_options.add_argument("--disable-extensions")
     firefox_options.add_argument("--no-sandbox")
     firefox_options.add_argument("--disable-gpu")
-    firefox_options.add_argument("--disable-dev-shm-usage")
     firefox_options.add_argument("--ignore-certificate-errors")
     firefox_options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36"
@@ -64,9 +61,7 @@ def reauth(username: str, password: str):
         {
             "browserName": "firefox",
             "platform": "Windows 10",
-            "version": "latest",
             "screenResolution": "1920x1080",
-            "seleniumVersion": "3.141.59",
         },
     )
 
@@ -141,7 +136,7 @@ def reauth(username: str, password: str):
     logger.debug(f"Auth: {json.loads(cache.get('auth'))}")
 
 
-sleep(15)
+sleep(10)
 while True:
     try:
         reauth(username, password)
