@@ -13,7 +13,7 @@ import schedule
 from selenium.common import NoSuchElementException
 from selenium.webdriver import Remote
 
-cache = redis.Redis(host="redis", port=6379)
+cache = redis.Redis(host="redis", port=6379, charset="utf-8")
 username, password = os.getenv("CASEID"), os.getenv("PASSWORD")
 
 logging.basicConfig(level=logging.DEBUG)
