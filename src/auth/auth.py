@@ -18,6 +18,14 @@ logging.basicConfig(level=logging.DEBUG)
 
 logger = logging.getLogger(__name__)
 
+auth_cookies_required = (
+    "ASP.NET_SessionId",
+    "__AntiXsrfToken",
+    "emsAuthToken",
+    "OptanonAlertBoxClosed",
+    "OptanonConsent",
+)
+
 auth_headers_template = {
     "Accept": "application/json, text/javascript, */*; q=0.01",
     "Accept-Language": "en-US,en;q=0.9",
@@ -44,9 +52,9 @@ def reauth(username: str, password: str):
     firefox_options.add_argument("start-maximized")
     firefox_options.add_argument("disable-infobars")
     firefox_options.add_argument("--disable-extensions")
-    firefox_options.add_argument('--no-sandbox')
-    firefox_options.add_argument('--disable-application-cache')
-    firefox_options.add_argument('--disable-gpu')
+    firefox_options.add_argument("--no-sandbox")
+    firefox_options.add_argument("--disable-application-cache")
+    firefox_options.add_argument("--disable-gpu")
     firefox_options.add_argument("--disable-dev-shm-usage")
     firefox_options.add_argument("--ignore-certificate-errors")
     firefox_options.add_argument(
@@ -95,17 +103,22 @@ def reauth(username: str, password: str):
 
     sleep(2)
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
-    sleep(10)
 
     # Get the auth cookies
+    while True:
+        try:
+            for required_auth_cookie in auth_cookies_required:
+                if driver.get_cookie(required_auth_cookie) is None:
+                    logger.info(f"Waiting for {required_auth_cookie} cookie")
+                    driver.implicitly_wait(1000)
+                    raise StopIteration()
+        except StopIteration:
+            break
+
     auth_cookies = {
-        "ASP.NET_SessionId": driver.get_cookie("ASP.NET_SessionId"),
-        "__AntiXsrfToken": driver.get_cookie("__AntiXsrfToken"),
-        "emsAuthToken": driver.get_cookie("emsAuthToken"),
-        "OptanonAlertBoxClosed": driver.get_cookie("OptanonAlertBoxClosed"),
-        "OptanonConsent": driver.get_cookie("OptanonConsent"),
+        required_auth_cookie: driver.get_cookie(required_auth_cookie)["value"]
+        for required_auth_cookie in auth_cookies_required
     }
-    auth_cookies = {k: v["value"] for k, v in auth_cookies.items() if v}
     logger.debug(f"Auth cookies: {auth_cookies}")
 
     # Create auth headers
