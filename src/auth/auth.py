@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+from datetime import datetime
 from time import sleep, time
 
 import urllib3
@@ -95,8 +96,13 @@ def reauth(username: str, password: str):
 
     driver.find_element("id", "login-submit").click()
 
-    sleep(2)
     driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
+    driver.implicitly_wait(1000)
+
+    driver.find_element("id", "onetrust-accept-btn-handler").click()
+
+    driver.get("https://case.emscloudservice.com/web/BrowseForSpace.aspx")
+    driver.implicitly_wait(1000)
 
     successfully_fetched_auth_cookies = set()
     for i in range(4):
