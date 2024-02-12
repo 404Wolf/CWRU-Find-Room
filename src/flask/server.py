@@ -32,7 +32,7 @@ def keep_auth():
     global cached_auth
 
     while True:
-        new_cached_auth = cache.get("auth") or str(cached_auth)
+        new_cached_auth = cache.get("auth")
         if new_cached_auth:
             cached_auth = json.loads(new_cached_auth)
         else:
@@ -50,8 +50,11 @@ async def findRooms():
     duration_hours = request.args.get("duration_hours")
 
     if not hours_from_now or not duration_hours:
-        return jsonify(
-            {"error": "hours_from_now and duration_hours are required parameters"}, 400
+        return (
+            jsonify(
+                {"error": "hours_from_now and duration_hours are required parameters"}
+            ),
+            400,
         )
 
     if not cached_auth:
@@ -59,7 +62,7 @@ async def findRooms():
             jsonify(
                 {
                     "error": "No cached auth found. This means that the server is currently obtaining an auth token. "
-                             "Please try again soon."
+                    "Please try again soon."
                 }
             ),
             500,
