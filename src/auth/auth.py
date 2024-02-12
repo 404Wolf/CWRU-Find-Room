@@ -38,10 +38,15 @@ auth_headers_template = {
 
 
 @schedule.repeat(schedule.every(2).hours, username, password)
-def reauth(username, password):
+def reauth(username: str, password: str):
     firefox_options = FirefoxOptions()
     firefox_options.add_argument("--headless")
-    firefox_options.add_argument("--no-sandbox")
+    firefox_options.add_argument("start-maximized")
+    firefox_options.add_argument("disable-infobars")
+    firefox_options.add_argument("--disable-extensions")
+    firefox_options.add_argument('--no-sandbox')
+    firefox_options.add_argument('--disable-application-cache')
+    firefox_options.add_argument('--disable-gpu')
     firefox_options.add_argument("--disable-dev-shm-usage")
     firefox_options.add_argument("--ignore-certificate-errors")
     firefox_options.add_argument(
