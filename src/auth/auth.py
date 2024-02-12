@@ -49,7 +49,7 @@ auth_headers_template = {
 
 @schedule.repeat(schedule.every(2).hours, username, password)
 def reauth(username: str, password: str):
-    if time() < cache.get("auth:expires_at"):
+    if time() < float(cache.get("auth:expires_at")):
         logger.info("Auth still valid")
         return
 
