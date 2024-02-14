@@ -11,10 +11,12 @@ from dotenv import load_dotenv
 
 import aiohttp
 from flask import Flask, jsonify, request
-
+from flask_cors import CORS
 from ems.rooms import Rooms
 
 app = Flask(__name__)
+CORS(app)
+
 cache = redis.Redis(host="redis", port=6379, db=0)
 load_dotenv()
 logging.basicConfig(level=logging.DEBUG)

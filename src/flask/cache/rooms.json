@@ -2273,54 +2273,5 @@
     "building_id": 100,
     "building_code": "WRB",
     "name": "Living Room 1223"
-  },
-  "506": {
-    "room_id": 506,
-    "room_code": "E425A",
-    "building_id": 101,
-    "building_code": "Robbins",
-    "name": "E425A Academic Classroom"
-  },
-  "941": {
-    "room_id": 941,
-    "room_code": "NORD T01",
-    "building_id": 77,
-    "building_code": "Nord",
-    "name": "Atrium Table 1"
-  },
-  "50": {
-    "room_id": 50,
-    "room_code": "AH M3",
-    "building_id": 12,
-    "building_code": "AH",
-    "name": "M3"
-  },
-  "476": {
-    "room_id": 476,
-    "room_code": "GUND Uppr Rotunda",
-    "building_id": 69,
-    "building_code": "Gund",
-    "name": "Gray Family Rotunda - (upper)"
-  },
-  "747": {
-    "room_id": 747,
-    "room_code": "SMSN 499U",
-    "building_id": 102,
-    "building_code": "Samson",
-    "name": "499U Conference Room 12p (MED)"
-  },
-  "477": {
-    "room_id": 477,
-    "room_code": "GUND Stdnt Lnge",
-    "building_id": 69,
-    "building_code": "Gund",
-    "name": "Student Lounge - Ben&#39;s Place"
-  },
-  "479": {
-    "room_id": 479,
-    "room_code": "GUND Tbl 158",
-    "building_id": 69,
-    "building_code": "Gund",
-    "name": "Table 158 - Outside Room 158 in Gray Rotunda"
   }
 }
